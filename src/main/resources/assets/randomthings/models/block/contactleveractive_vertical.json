@@ -1,7 +1,0 @@
-{
-    "parent": "block/orientable_vertical",
-    "textures": {
-        "front": "randomthings:blocks/contactlever/front",
-        "side": "randomthings:blocks/contactlever/sideactive"
-    }
-}

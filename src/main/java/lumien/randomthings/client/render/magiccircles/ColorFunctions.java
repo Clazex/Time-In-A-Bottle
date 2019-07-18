@@ -15,13 +15,6 @@ public class ColorFunctions
 		};
 	}
 
-	public static IColorFunction alternate(Color c1, Color c2)
-	{
-		return (p, t, c) -> {
-			return t % 2 == 0 ? c2 : c1;
-		};
-	}
-
 	public static IColorFunction alternateN(Color c1, Color c2, int n, int offset)
 	{
 		return (p, t, c) -> {

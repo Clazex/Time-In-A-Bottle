@@ -1,7 +1,0 @@
-{
-    "parent": "randomthings:block/template/cube_orientable",
-    "textures": {
-        "front": "randomthings:blocks/sidedredstone/front",
-        "side": "randomthings:blocks/sidedredstone/side"
-    }
-}

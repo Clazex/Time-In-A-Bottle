@@ -1,6 +1,0 @@
-{
-    "parent": "minecraft:block/torch_wall",
-    "textures": {
-        "torch": "randomthings:blocks/advancedredstonetorch_off"
-    }
-}

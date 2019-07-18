@@ -1,7 +1,0 @@
-{
-    "parent": "randomthings:block/template/cube_all_2tint",
-    "textures": {
-        "allbase": "randomthings:blocks/luminousstainedbrick/red_base",
-        "alltint": "randomthings:blocks/luminousstainedbrick/red_tint"
-    }
-}

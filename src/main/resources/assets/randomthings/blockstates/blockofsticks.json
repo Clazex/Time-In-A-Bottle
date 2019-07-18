@@ -1,6 +1,0 @@
-{
-    "variants": {
-        "returning=false": { "model": "randomthings:blockofsticks" },
-        "returning=true": { "model": "randomthings:returningblockofsticks" }
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "parent": "block/orientable",
-    "textures": {
-        "top": "randomthings:blocks/blockbreaker/side",
-        "front": "randomthings:blocks/blockbreaker/front",
-        "side": "randomthings:blocks/blockbreaker/side"
-    }
-}

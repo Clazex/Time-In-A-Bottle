@@ -9,13 +9,11 @@ import net.minecraftforge.fml.common.registry.ForgeRegistries;
 
 public class ItemBase extends Item
 {
-	public static List<Item> rtItemList = new ArrayList<>(30);
+	public static List<Item> rtItemList = new ArrayList<>(1);
 
 	public ItemBase(String name)
 	{
 		registerItem(name, this);
-
-		RandomThings.proxy.scheduleColor(this);
 	}
 
 	public static void registerItem(String name, Item item)

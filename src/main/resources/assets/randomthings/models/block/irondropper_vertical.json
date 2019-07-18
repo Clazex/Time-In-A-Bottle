@@ -1,7 +1,0 @@
-{
-    "parent": "block/orientable_vertical",
-    "textures": {
-        "front": "randomthings:blocks/irondropper/irondropper_front_vertical",
-        "side": "randomthings:blocks/irondropper/irondropper_top"
-    }
-}
