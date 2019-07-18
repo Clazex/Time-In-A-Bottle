@@ -52,7 +52,7 @@ minecraft {
     useDepAts = true
 }
 
-archivesBaseName = "RandomThings-MC" + minecraft.version
+archivesBaseName = "TimeInABottle-MC" + minecraft.version
 
 dependencies {
     // you may put jars on which you depend on in ./libs

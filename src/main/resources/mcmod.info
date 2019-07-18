@@ -1,13 +1,13 @@
 [
 {
   "modid": "randomthings",
-  "name": "Random Things",
-  "description": "Random Things packed into one Mod.",
+  "name": "Time In A Bottle",
+  "description": "Standalone Version of Time In A Bottle.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "updateUrl": "",
   "authorList": ["Lumien"],
-  "credits": "Lumien (Mod);Drakeflame13 (Soul Texture);benzrf,CaptainMalone (Too Many Plants Content);Lorc (Biome Crystal)",
+  "credits": "Lumien (Mod); Sciencmine (Extraction)",
   "logoFile": "logo.png",
   "screenshots": [],
   "dependencies": []

@@ -11,7 +11,7 @@ public class RTCreativeTab extends CreativeTabs
 {
 	public RTCreativeTab()
 	{
-		super("rt.name");
+		super("tiab.name");
 	}
 
 	@Override
