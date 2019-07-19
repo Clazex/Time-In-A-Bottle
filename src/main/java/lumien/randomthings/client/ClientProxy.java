@@ -4,7 +4,6 @@ import lumien.randomthings.CommonProxy;
 import lumien.randomthings.client.models.ItemModels;
 import lumien.randomthings.client.render.RenderTimeAccelerator;
 import lumien.randomthings.entitys.EntityTimeAccelerator;
-import lumien.randomthings.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
 

@@ -2,9 +2,7 @@ package lumien.randomthings.util.client;
 
 import org.lwjgl.opengl.GL11;
 
-
 import net.minecraft.client.renderer.GlStateManager;
-import net.minecraft.client.renderer.GlStateManager.Profile;
 
 public class RenderUtils
 {

@@ -1,22 +1,11 @@
 package lumien.randomthings.util.client;
 
-import java.awt.Color;
-import java.util.Random;
-import java.util.function.BiFunction;
 import java.util.function.Function;
 
 import org.lwjgl.opengl.GL11;
-import org.lwjgl.util.vector.Vector3f;
 
 import lumien.randomthings.client.render.magiccircles.ITriangleFunction;
-import lumien.randomthings.handler.RTEventHandler;
-import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
-import net.minecraft.client.renderer.GlStateManager.DestFactor;
-import net.minecraft.client.renderer.GlStateManager.SourceFactor;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.util.math.BlockPos;
-import net.minecraftforge.client.model.animation.Animation;
 
 public class MKRRenderUtil
 {

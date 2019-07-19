@@ -1,9 +1,7 @@
 package lumien.randomthings.client.render;
 
 import java.awt.Color;
-import java.util.Random;
 
-import lumien.randomthings.client.ClientProxy;
 import lumien.randomthings.client.render.magiccircles.ColorFunctions;
 import lumien.randomthings.client.render.magiccircles.IColorFunction;
 import lumien.randomthings.entitys.EntityTimeAccelerator;
@@ -11,17 +9,12 @@ import lumien.randomthings.handler.RTEventHandler;
 import lumien.randomthings.util.client.MKRRenderUtil;
 import lumien.randomthings.util.client.RenderUtils;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.renderer.BufferBuilder;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.RenderHelper;
-import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.client.renderer.entity.Render;
 import net.minecraft.client.renderer.entity.RenderManager;
-import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.ResourceLocation;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.MathHelper;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 

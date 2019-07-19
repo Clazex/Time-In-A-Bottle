@@ -1,7 +1,6 @@
 package lumien.randomthings.client.models;
 
 import lumien.randomthings.item.ModItems;
-import net.minecraft.client.renderer.block.model.ModelBakery;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.model.ModelLoader;

@@ -1,7 +1,6 @@
 package lumien.randomthings.config;
 
-import lumien.randomthings.RandomThings;
-import lumien.randomthings.lib.ConfigOption;
+
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
