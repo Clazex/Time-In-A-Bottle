@@ -1,10 +1,9 @@
-Random-Things
+Time-In-A-Bottle
 =============
 
-Source Code of the Random Things mod. Feel free to make pull requests for translation and other stuff.
+Standalone Version of `Time In A Bottle` Extracted From `Random-Things`.
 
-
-##License
+## License
 The MIT License (MIT)
 
 Copyright (c) <2015> <lumien>
