@@ -3,5 +3,3 @@ itemGroup.tiab.name=时间之瓶
 item.timeInABottle.name=时间之瓶
 
 tooltip.timeInABottle=%d 小时 | %d 分钟 | %d 秒
-
-item.timeInABottle.info=这个物品让你能加快方块的速率。它在你的物品栏里被动地收集时间，你可以用它右键一个方块来消耗。第一次点击需要30秒，第二次60秒，第三次120秒，第四次240秒以及第五次480秒。每点击一次，方块的速率就会翻倍。效果持续30秒。玩家背包中一次只能有一个。

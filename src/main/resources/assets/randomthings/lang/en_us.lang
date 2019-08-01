@@ -3,5 +3,3 @@ itemGroup.tiab.name=Time in a bottle
 item.timeInABottle.name=Time in a bottle
 
 tooltip.timeInABottle=%d H | %d M | %d S
-
-item.timeInABottle.info=This item allows you to accelerate the rate at which blocks tick. It passively collects time while in your inventory which you can consume by right clicking a block with it. The first click requires 30 Seconds, the second 60, the third 120 the fourth 240 and the fifth 480. The speed at which the block ticks doubles with each click. The effect lasts 30 seconds. You can only have one in your inventory at a time.
