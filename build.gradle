@@ -22,7 +22,7 @@ dependencies {
     //compile fileTree(dir: 'libs', include: ['*.*'])
 }
 
-version = "4.2.7.2"
+version = "4.2.7.3"
 group= "lumien.randomthings"
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
