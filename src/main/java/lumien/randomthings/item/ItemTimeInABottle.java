@@ -63,7 +63,7 @@ public class ItemTimeInABottle extends ItemBase
 		{
 			int secondWorth = Numbers.TIME_IN_A_BOTTLE_SECOND;
 			
-			if (secondWorth == 0 || worldIn.getTotalWorldTime() % secondWorth == 0)
+			/* if (secondWorth == 0 || worldIn.getTotalWorldTime() % secondWorth == 0)
 			{
 				NBTTagCompound timeData = stack.getOrCreateSubCompound("timeData");
 
@@ -95,6 +95,44 @@ public class ItemTimeInABottle extends ItemBase
 							{
 								myTimeData.setInteger("storedTime", 0);
 							}
+						}
+					}
+				}
+			} */ // Original Behavior
+
+			if (entityIn instanceof EntityPlayer)
+			{
+				EntityPlayer player = (EntityPlayer) entityIn;
+
+				boolean timeIsLongest = true;
+				for (int i = 0; i < player.inventory.getSizeInventory(); i++)
+				{
+					ItemStack invStack = player.inventory.getStackInSlot(i);
+
+					if (invStack.getItem() == this && invStack != stack)
+					{
+						NBTTagCompound otherTimeData = invStack.getOrCreateSubCompound("timeData");
+						NBTTagCompound myTimeData = stack.getOrCreateSubCompound("timeData");
+
+						int myTime = myTimeData.getInteger("storedTime");
+						int theirTime = otherTimeData.getInteger("storedTime");
+							
+						if (myTime <= theirTime)
+						{
+							timeIsLongest = false;
+							break;
+						}
+					}
+				}
+				
+				if (timeIsLongest) {
+					if (secondWorth == 0 || worldIn.getTotalWorldTime() % secondWorth == 0)
+					{
+						NBTTagCompound timeData = stack.getOrCreateSubCompound("timeData");
+
+						if (timeData.getInteger("storedTime") < 622080000)
+						{
+							timeData.setInteger("storedTime", timeData.getInteger("storedTime") + 20);
 						}
 					}
 				}
